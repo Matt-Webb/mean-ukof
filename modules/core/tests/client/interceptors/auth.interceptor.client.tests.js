@@ -6,7 +6,6 @@
     var authInterceptor,
       $q,
       $state,
-      Authentication,
       httpProvider;
 
     // Load the main application module
@@ -17,11 +16,10 @@
       httpProvider = $httpProvider;
     }));
 
-    beforeEach(inject(function(_authInterceptor_, _$q_, _$state_, _Authentication_) {
+    beforeEach(inject(function(_authInterceptor_, _$q_, _$state_) {
       authInterceptor = _authInterceptor_;
       $q = _$q_;
       $state = _$state_;
-      Authentication = _Authentication_;
       spyOn($q,'reject');
       spyOn($state,'transitionTo');
     }));
@@ -58,7 +56,6 @@
         };
         var promise = authInterceptor.responseError(response);
         expect($q.reject).toHaveBeenCalled();
-        expect(Authentication.user).toBe(null);
         expect($state.transitionTo).toHaveBeenCalledWith('authentication.signin');
       });
     });

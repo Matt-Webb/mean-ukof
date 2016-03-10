@@ -1,0 +1,13 @@
+<section ng-controller="InstructorsController" ng-init="find()">
+  <div class="page-header">
+    <h1>Your Instructors</h1>
+  </div>
+  <div class="list-group">
+    <a ng-repeat="instructor in instructors" ui-sref="instructors.view({instructorId: instructor._id})" class="list-group-item">
+      <h2 class="list-group-item-heading" ng-bind="instructor.name"></h2>
+      <img alt="{{ instructor.name }}" class="img-responsive text-center" src="{{ instructor.image }}" width="250" height="250" />
+      <h4 class="list-group-item-text" ng-bind="instructor.role"></h4>
+      <p class="list-group-item-text" ng-bind="instructor.bio"></p>
+    </a>
+  </div>
+</section>

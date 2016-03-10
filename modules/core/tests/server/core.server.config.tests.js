@@ -438,7 +438,7 @@ describe('Configuration Tests:', function () {
       };
 
       var options = logger.getOptions();
-      should.deepEqual(options, config.log.options);
+      options.should.deepEqual(config.log.options);
     });
 
     it('should verify that a writable stream was created using the logger configuration', function () {
