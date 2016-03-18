@@ -25,6 +25,11 @@ exports.update = function (req, res) {
   user.firstName = req.body.firstName;
   user.lastName = req.body.lastName;
   user.displayName = user.firstName + ' ' + user.lastName;
+  user.age = req.body.age;
+  user.dob = req.body.dob;
+  user.medical = req.body.medical;
+  user.bibColor = req.body.bibColor;
+  user.location = req.body.location;
   user.roles = req.body.roles;
 
   user.save(function (err) {
