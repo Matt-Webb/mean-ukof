@@ -28,6 +28,10 @@ var validateLocalStrategyEmail = function (email) {
  * User Schema
  */
 var UserSchema = new Schema({
+  memeberNumber: {
+    type: Number,
+    unique: true
+  },
   firstName: {
     type: String,
     trim: true,
@@ -43,6 +47,25 @@ var UserSchema = new Schema({
   displayName: {
     type: String,
     trim: true
+  },
+  dob: {
+      type: Date,
+  },
+  medical: {
+    type: String,
+    default: ''
+  },
+  bibColor: {
+    type: [{
+      type: String,
+      enum: ['pink', 'blue', 'green']
+    }],
+    default: ['pink'],
+    required: 'Please select your bib color'
+  },
+  location: {
+    type: String,
+    default: ''
   },
   email: {
     type: String,
@@ -79,7 +102,7 @@ var UserSchema = new Schema({
   roles: {
     type: [{
       type: String,
-      enum: ['user', 'admin']
+      enum: ['user', 'admin', 'member', 'instructor']
     }],
     default: ['user'],
     required: 'Please provide at least one role'
