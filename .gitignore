@@ -10,11 +10,7 @@ Thumbs.db
 .nodemonignore
 .sass-cache/
 node_modules/
-public/lib/angular*/
-public/lib/bootstrap/
-public/lib/es5-shim/
-public/lib/jquery/
-public/lib/owasp-password-strength-test/
+public/lib/
 app/tests/coverage/
 .bower-*/
 .idea/
