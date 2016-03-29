@@ -9,6 +9,7 @@ module.exports = {
         'public/lib/ukof-theme/css/*.css'
       ],
       js: [
+        'public/lib/ukof-theme/js/jquery.min.js',
         'public/lib/angular/angular.js',
         'public/lib/angular-resource/angular-resource.js',
         'public/lib/angular-animate/angular-animate.js',
@@ -17,8 +18,20 @@ module.exports = {
         'public/lib/angular-ui-utils/ui-utils.js',
         'public/lib/angular-bootstrap/ui-bootstrap-tpls.js',
         'public/lib/angular-file-upload/angular-file-upload.js',
-        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js'
-        //'public/lib/ukof-theme/js/*.js'
+        'public/lib/owasp-password-strength-test/owasp-password-strength-test.js',
+        // 'public/lib/ukof-theme/js/jquery-2.1.0.min.js',
+    	'public/lib/ukof-theme/js/bootstrap.min.js',
+    	'public/lib/ukof-theme/js/shortcode-frontend.js',
+    	'public/lib/ukof-theme/js/jquery.mixitup.js',
+    	'public/lib/ukof-theme/js/classie.js',
+    	'public/lib/ukof-theme/js/jquery.easing.1.3.js',
+    	'public/lib/ukof-theme/js/waypoints.js',
+    	'public/lib/ukof-theme/js/masterslider.min.js',
+    	'public/lib/ukof-theme/js/banner.js',
+    	// 'public/lib/ukof-theme/js/template.js',
+    	'public/lib/ukof-theme/js/dropdown.js',
+    	'public/lib/ukof-theme/js/theme.js',
+    	'public/lib/ukof-theme/js/main.js'
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
     },

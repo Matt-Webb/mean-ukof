@@ -13,6 +13,11 @@
       roles: ['user']
     });
 
+    // Menus.addMenuItem('about', {
+    //     title: 'About',
+    //     state: 'about'
+    // });
+
     Menus.addMenuItem('account', {
       title: '',
       state: 'settings',
