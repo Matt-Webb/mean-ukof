@@ -1,0 +1,179 @@
+[{
+	"name": "Kirkstall Abbey",
+	"address": {
+		"venue": "Kirkstall Abbey",
+		"street": "",
+		"city": "Leeds",
+		"county": "West Yorkshire",
+		"postcode": "LS5 3SB",
+		"longditude": -1.608547,
+		"latitude": 53.825588
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Headingley",
+	"address": {
+		"venue": "South Parade Baptish Church",
+		"street": "Kirkstall Lane",
+		"city": "Leeds",
+		"county": "West Yorkshire",
+		"postcode": "LS6 3LF",
+		"longditude": 1.581807,
+		"latitude": 53.819683
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Temple Newsam",
+	"address": {
+		"venue": "Temple Newsam",
+		"street": "",
+		"city": "Leeds",
+		"county": "West Yorkshire",
+		"postcode": "LS15 0AE",
+		"longditude": -1.459710,
+		"latitude": 53.784330
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Farsley",
+	"address": {
+		"venue": "Westroyd Park Farsley",
+		"street": "",
+		"city": "Leeds",
+		"county": "West Yorkshire",
+		"postcode": "LS28 5AS",
+		"longditude": -1.670865,
+		"latitude": 53.808006
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Kippax",
+	"address": {
+		"venue": "Brigshaw High School",
+		"street": "",
+		"city": "Kippax",
+		"county": "West Yorkshire",
+		"postcode": "WF10 2HR",
+		"longditude": -1.384448,
+		"latitude": 53.757327
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Airedale Academy",
+	"address": {
+		"venue": "Airedale Academy",
+		"street": "",
+		"city": "Castleford",
+		"county": "West Yorkshire",
+		"postcode": "WF10 3JU",
+		"longditude": -1.311235,
+		"latitude": 53.721147
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "The Knavesmire",
+	"address": {
+		"venue": "Knavesmire",
+		"street": "Knavesmire Road",
+		"city": "York",
+		"county": "North Yorkshire",
+		"postcode": "YO24 1DJ",
+		"longditude": -1.098712,
+		"latitude": 53.949602
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Hillsborough Park",
+	"address": {
+		"venue": "Hillsborough Park",
+		"street": "",
+		"city": "Sheffield",
+		"county": "South Yorkshire",
+		"postcode": ""
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Millhouses Park",
+	"address": {
+		"venue": "Millhouses Park",
+		"street": "",
+		"city": "Sheffield",
+		"county": "South Yorkshire",
+		"postcode": "S7 2QN",
+		"longditude": -1.498682,
+		"latitude": 53.345065
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "All Saints Catholic College",
+	"address": {
+		"venue": "All Saints Catholic College",
+		"street": "Bradley Road",
+		"city": "Huddersfield",
+		"county": "",
+		"postcode": "HD2 2JT",
+		"longditude": -1.772124,
+		"latitude": 53.678399
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Baildon Rugby Club",
+	"address": {
+		"venue": "Baildon Rugby Club",
+		"street": "Jenny Lane, Shipley",
+		"city": "Bradford",
+		"county": "West Yorkshire",
+		"postcode": "BD17 6RS",
+		"longditude": -1.762082,
+		"latitude": 53.856630
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}, {
+	"name": "Drighlington Moor",
+	"address": {
+		"venue": "Drighlington",
+		"street": "Moorland Road ",
+		"city": "Bradford",
+		"county": "West Yorkshire",
+		"postcode": "BD11 1JY",
+		"longditude": -1.663417,
+		"latitude": 53.753805
+	},
+	"image": null,
+	"active": true,
+	"outdoor": true,
+	"indoor": false
+}]
