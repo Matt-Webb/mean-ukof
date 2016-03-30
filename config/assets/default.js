@@ -31,7 +31,9 @@ module.exports = {
       	// 'public/lib/ukof-theme/js/template.js',
       	'public/lib/ukof-theme/js/dropdown.js',
       	'public/lib/ukof-theme/js/theme.js',
-      	'public/lib/ukof-theme/js/main.js'
+      	'public/lib/ukof-theme/js/main.js',
+        'public/lib/ukof-theme/js/maps.js',
+        'public/lib/ukof-theme/js/map.js'
       ],
       tests: ['public/lib/angular-mocks/angular-mocks.js']
     },
