@@ -17,8 +17,16 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
       url: '/',
       templateUrl: 'modules/core/client/views/home.client.view.html'
     })
-    .state('about', {
+    .state('classdesc', {
         url: '/outdoor-bootcamp-and-fitness-classes',
+        templateUrl: 'modules/core/client/views/classdesc.client.view.html'
+    })
+    .state('faqs', {
+        url: '/faqs',
+        templateUrl: 'modules/core/client/views/faqs.client.view.html'
+    })
+    .state('about', {
+        url: '/about-ukof-bootcamp',
         templateUrl: 'modules/core/client/views/about.client.view.html'
     })
     .state('contact', {

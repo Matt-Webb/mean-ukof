@@ -33,8 +33,18 @@ ACCOUNT AREA - JOIN NOW
 - Pay Monthly
 - PAYG - buy block and payment
 
+CLASS DESC PAGE
+- replace latin
+
+FAQS
+- add redirect from faqs-2
+
 ABOUT PAGE
 - link up T&Cs, sign up
+
+PRICES
+- update wording
+
 
 CONTACT PAGE
 - stripped out partners logos, could add back in or use on another page if Paul has as list
