@@ -28,10 +28,6 @@ var validateLocalStrategyEmail = function (email) {
  * User Schema
  */
 var UserSchema = new Schema({
-  memeberNumber: {
-    type: Number,
-    unique: true
-  },
   firstName: {
     type: String,
     trim: true,
