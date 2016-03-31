@@ -17,9 +17,25 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
       url: '/',
       templateUrl: 'modules/core/client/views/home.client.view.html'
     })
+    .state('classdesc', {
+        url: '/outdoor-bootcamp-and-fitness-classes',
+        templateUrl: 'modules/core/client/views/classdesc.client.view.html'
+    })
+    .state('faqs', {
+        url: '/faqs',
+        templateUrl: 'modules/core/client/views/faqs.client.view.html'
+    })
     .state('about', {
-        url: '/about',
+        url: '/about-ukof-bootcamp',
         templateUrl: 'modules/core/client/views/about.client.view.html'
+    })
+    .state('contact', {
+        url: '/contact-us',
+        templateUrl: 'modules/core/client/views/contact.client.view.html'
+    })
+    .state('prices', {
+        url: '/prices',
+        templateUrl: 'modules/core/client/views/prices.client.view.html'
     })
     .state('not-found', {
       url: '/not-found',
